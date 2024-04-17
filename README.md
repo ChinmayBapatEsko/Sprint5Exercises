@@ -1,4 +1,4 @@
-Bakery Project frontend starts in: **Sprint5Exercises\SprintExercies** directory
+Bakery Project frontend starts in: **Sprint5Exercises\SprintExercisesReact** directory
 
 Express Server for Bakery Project in: **Sprint5Exercises\BakeryExpress** directory
 
