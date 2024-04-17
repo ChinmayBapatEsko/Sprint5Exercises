@@ -1,0 +1,29 @@
+.text-start{
+    width:1300px;
+}
+
+.textHeader{
+    width: 100%;
+}
+
+.container{
+    margin-top: 100px !important;
+    margin-bottom: -100px !important;
+}
+.button-holder{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.progressButton{
+    margin: 5px 30px;
+}
+.textHeader{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    background-color: rgb(222, 244, 222);
+    font-weight: bold;
+    padding: 20px;
+    width: 100vw;
+    margin-top: 60px;
+}

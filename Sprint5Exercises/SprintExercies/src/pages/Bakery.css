@@ -1,0 +1,128 @@
+.bakeryContainer{
+    width: 100vw;
+    height: 92.8vh;
+    /* height: 100vh; */
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+}
+.leftSide{
+    background-color: rgb(212, 255, 0);
+    width: 50%;
+    height:100%;
+}
+.rightSide{
+    background-color: pink;
+    width: 50%;
+    height: 100%;
+}
+
+.center-image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    background: transparent;
+    width: 45vw;
+    height: 75vh;
+}
+
+.bakeryButton{
+    background-color: rgb(75, 29, 29);
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    text-decoration: overline underline;
+    text-underline-offset: 5px;
+    padding-top: 50px;
+    
+}
+
+.textAbove .upText, .textAbove .downText{
+    padding: 10px;
+    margin: 20px;
+    font-weight: 900;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.textBelow .upText, .textBelow .downText{
+    padding: 10px;
+    margin: 20px;
+    font-weight: 900;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.rightSide .textAbove{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+
+.leftSide .textAbove{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.rightSide .textBelow{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.leftSide .textBelow{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.textAbove .middleText{
+    align-self: center;
+    font-family:cursive;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.textBelow .middleText{
+    align-self: center;
+    font-family:cursive;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.leftSide .textAbove .middleText{
+    width: 60%;
+}
+
+.leftSide .textBelow .middleText{
+    width: 60%;
+}
+
+.rightSide .textAbove .middleText{
+    width: 70%;
+    margin-left: 70px;
+}
+
+.rightSide .textBelow .middleText{
+    width: 70%;
+    margin-left: 70px;
+}
+
+.textAbove{
+    height: 40%;
+}
+
+.textBelow{
+    height: 40%;
+}
+
+.buttonHolder{
+    height: 15%;
+    display: flex;
+    justify-content: center;
+}

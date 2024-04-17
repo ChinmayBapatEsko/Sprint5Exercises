@@ -1,0 +1,19 @@
+.nav-item{
+    margin: 0px 15px;
+    border-style: solid;
+    border-color:beige;
+    border-radius: 2em;
+    padding: 0px 3px;
+    border-width: 3px;
+    font-family: cursive;
+}
+.navbar{
+    background-color: rgb(2, 70, 1) !important;
+}
+
+.navbar-brand{
+    padding-left: 1%;
+    color:darkturquoise;
+    font-weight: bold;
+    font-style: italic;
+}

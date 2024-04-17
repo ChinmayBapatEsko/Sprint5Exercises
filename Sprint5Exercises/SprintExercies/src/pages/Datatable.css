@@ -1,0 +1,91 @@
+.tableContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 75vw;
+    background-color: rgb(221, 246, 221);
+    margin-top: -10px;
+}
+
+.header{
+    /* margin-top: 100px;
+    margin-bottom: 50px;
+    font-weight: bold; */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    background-color: rgb(222, 244, 222);
+    font-weight: bold;
+    padding: 20px;
+    width: 100vw;
+    margin-top: 60px;
+}
+
+.searchBar{
+    border-color: black;
+    border-width: 3px;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    margin: 15px 10px 50px 10px;
+    text-align: center;
+}
+
+.pageSizeSelectors{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: azure;
+    align-items: center;
+    padding: 10px;
+}
+
+.pageNumberSelector{
+    display: flex;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-bottom:dashed;
+    border-color: black
+}
+
+ul{
+    list-style-type: none;
+    padding-inline-start: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.nRowsPageButton{
+    height: 50%
+}
+.pageNumberButtons{
+    display: flex;
+    padding-left: 20px;
+    
+}
+
+.pageSizeButtons{
+    display: flex;
+    padding-left: 20px;
+}
+
+.dataTable{
+    padding: 0.2px 0.2px 0.2px 0.2px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+td{
+    text-align: center;
+    border-color: black;
+    border-width: 10px;
+}
+
+table, th, td{
+    border: 2px solid;
+}
+table{
+    margin-left: 5px;
+    margin-right: 5px;
+}

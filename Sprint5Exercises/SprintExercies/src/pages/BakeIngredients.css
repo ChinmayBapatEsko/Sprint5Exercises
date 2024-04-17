@@ -1,0 +1,83 @@
+.ingredientCard{
+    /* width: auto;
+    height: auto; */
+    max-width: 300px;
+    max-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(240, 237, 255)
+}
+
+.form-control{
+    text-align: center;
+    width: 50%;
+    align-self: center;
+    margin: 16px;
+}
+
+.ingredientImage{
+    width:200px;
+    height: 200px;
+}
+
+.card-text{
+    margin-top: 16px;
+    font-style: italic;
+    color: rgb(113, 17, 17);
+    border-top: solid;
+    border-bottom: solid;
+}
+
+.ingredientCardBody{
+    width: 100%;
+}
+
+.span{
+    font-weight:500
+}
+
+.ingredientCardTitle{
+    font-size: x-large;
+}
+
+.row{
+    width: 100vw;
+    margin-top: -60px;
+}
+
+.notice{
+    width: 93%;
+    height: 30px;
+    background-color: rgb(237, 217, 84);
+    margin-top: 70px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 50px;
+}
+.constraints{
+    width: 59%;
+    height: 30px;
+    background-color: rgb(237, 181, 84);
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 50px;
+}
+
+.noticeHolder{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-holder{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

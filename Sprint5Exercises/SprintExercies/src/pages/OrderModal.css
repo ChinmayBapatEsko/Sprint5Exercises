@@ -1,0 +1,30 @@
+.qrcode{
+    width:200px;
+    height: 200px;
+    align-self: center;
+}
+.modal-body{
+    padding: 5px;
+}
+
+.close{
+    margin: 5px;
+    border: none;
+    background-color: wheat;
+    border-radius: 100px;
+    font-weight: bold;
+}
+
+.modal{
+    backdrop-filter: blur(10px);
+}
+.orderData{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.para{
+    text-align: center;
+}

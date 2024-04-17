@@ -1,0 +1,29 @@
+.modal-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.table{
+    padding: 0px;
+    margin: 0px;
+}
+.modal-body{
+    padding: 0px;
+}
+
+.modal-body .table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.modal-body .table th,
+.modal-body .table td {
+    border: none;
+    padding: 8px;
+}
+
+.modal-body .table thead th {
+    background-color: #f8f9fa;
+    text-align: left;
+}

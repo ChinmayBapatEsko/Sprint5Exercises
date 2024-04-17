@@ -1,0 +1,14 @@
+.mainContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.datatable{
+    width: 50vw;
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
