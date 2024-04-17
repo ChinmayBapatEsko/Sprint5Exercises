@@ -60,7 +60,7 @@ const InventoryModal = ({ showModal, handleCloseModal, getInventory, updateInven
             <div className="modal-dialog modal-dialog-centered" role="document">
                 <div className="modal-content">
                     <div className="modal-header">
-                        <h5 className="modal-title" id="inventoryModalTitle">Inventory Management</h5>
+                        <h5 className="modal-title" id="inventoryModalTitle">Bakery RM Stock</h5>
                         <button type="button" className="close" data-dismiss="modal" aria-label="Close" onClick={handleCloseModal}>
                             <span aria-hidden="true">&times;</span>
                         </button>
@@ -69,7 +69,7 @@ const InventoryModal = ({ showModal, handleCloseModal, getInventory, updateInven
                     <table className="table">
                             <thead>
                                 <tr>
-                                    <th scope="col">Name</th>
+                                    <th scope="col">Ingredient</th>
                                     <th scope="col">Quantity</th>
                                     <th scope="col">Calories per 100gm</th>
                                     <th scope="col">Cost per 100gm</th>
@@ -78,8 +78,8 @@ const InventoryModal = ({ showModal, handleCloseModal, getInventory, updateInven
                             <tbody>
                                 {inventory.map(item => (
                                     <tr key={item._id}>
-                                        <td>{item.name}</td>
-                                        <td
+                                        <td className="ing-name">{item.name}</td>
+                                        <td className="ing-quantity"
                                             onDoubleClick={() => {
                                                 const newValue = prompt("Enter new quantity:");
                                                 if (newValue !== null) {
