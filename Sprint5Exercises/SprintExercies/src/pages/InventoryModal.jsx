@@ -8,7 +8,7 @@
 
 
 import React from "react";
-import './InventoryModal.css';
+import '../css/InventoryModal.css';
 import { useEffect, useState } from "react";
 
 const InventoryModal = ({ showModal, handleCloseModal, getInventory, updateInventory, createMap}) => {

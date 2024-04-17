@@ -8,7 +8,7 @@ Assumes a set of data (can be retrieved from database too) and provides features
 
 
 import React, { useState } from "react";
-import './Datatable.css'
+import '../css/Datatable.css'
 import Navbar from "./Navbar";
 
 const data = [

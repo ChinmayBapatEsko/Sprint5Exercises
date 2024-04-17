@@ -8,7 +8,7 @@ When he wants to sleep, he will sleep for 5 seconds and then again start running
 
 import React, {useState} from "react";
 import { useEffect } from "react";
-import './Progress.css';
+import '../css/Progress.css';
 import ProgressBar from 'react-bootstrap/ProgressBar';
 import boyRunning from '../assets/runningBoy.jpg';
 import Navbar from "./Navbar";

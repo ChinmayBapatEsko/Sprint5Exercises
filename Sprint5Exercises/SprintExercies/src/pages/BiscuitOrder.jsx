@@ -23,7 +23,7 @@ import { useState, useEffect } from "react";
 import circularBiscuit from '../assets/circularBiscuit.png'
 import triangularBiscuit from '../assets/triangularBiscuit.png'
 import rectangularBiscuit from '../assets/rectangularBiscuit.png'
-import './BiscuitOrder.css';
+import '../css/BiscuitOrder.css';
 import OrderModal from './OrderModal'
 import InventoryModal from "./InventoryModal";
 

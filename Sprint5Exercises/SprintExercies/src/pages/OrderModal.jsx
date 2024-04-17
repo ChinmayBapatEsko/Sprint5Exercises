@@ -7,9 +7,7 @@
 
 import React from "react";
 import qrCode from '../assets/qrcode.png'
-import './OrderModal.css'
-import { useEffect } from "react";
-import BiscuitOrder from "./BiscuitOrder";
+import '../css/OrderModal.css'
 
 const OrderModal = ({ showModal, handleCloseModal, handlePostOrderFunctions, cost, calories}) => {
 

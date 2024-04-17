@@ -6,7 +6,7 @@ User can remove the widget from the deck by double clicking it.
 
 */
 
-import './DragDrop.css';
+import '../css/DragDrop.css';
 import React, {useEffect, useState} from 'react';
 import Navbar from './Navbar';
 

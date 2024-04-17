@@ -8,7 +8,7 @@ Contains a dropdown that will help to set the preference of the user.
 
 
 import React, { useState, useEffect } from 'react';
-import './IngredientOrderModal.css';
+import '../css/IngredientOrderModal.css';
 import qrCode from '../assets/qrcode.png';
 
 const IngredientOrderModal = ({ showModal, handleCloseModal, orderSolutions, userInventoryToggle, inventory, updateInventory, createMap, handleReset}) => {

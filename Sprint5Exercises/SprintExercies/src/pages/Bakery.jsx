@@ -4,7 +4,7 @@
 
 */
 
-import './Bakery.css';
+import '../css/Bakery.css';
 import React from 'react';
 import {useState, useEffect} from 'react';
 import Navbar from './Navbar';

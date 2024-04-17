@@ -13,7 +13,7 @@
 */
 
 import React from "react";
-import './BakeIngredients.css';
+import '../css/BakeIngredients.css';
 import Navbar from "./Navbar";
 import { useState, useEffect } from "react";
 import axios from "axios";
