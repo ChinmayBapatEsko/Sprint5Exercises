@@ -87,10 +87,10 @@ const InventoryModal = ({ showModal, handleCloseModal, getInventory, updateInven
                                                 }
                                             }}
                                         >
-                                            {item.quantity}
+                                            {item.quantity} g
                                         </td>
-                                        <td>{item.calories}</td>
-                                        <td>{item.cost}</td>
+                                        <td>{item.calories} cal</td>
+                                        <td>&#x20B9;{item.cost}</td>
                                     </tr>
                                 ))}
                             </tbody>
