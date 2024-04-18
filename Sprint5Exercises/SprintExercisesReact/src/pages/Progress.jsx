@@ -67,7 +67,7 @@ const Progress = () => {
     return(
         <>
         <Navbar/>
-      <h1 className="textHeader">Boy's Activity Progress</h1>
+      <h1 className="textHeader">Bablu's Activity Progress</h1>
       <div className="container mt-5">
       <div className="text-start">
         <img src={boyRunning} alt="Boy Running" style={{ width: '150px', height:'200px',marginLeft: `${marginLeft}px` }} />
