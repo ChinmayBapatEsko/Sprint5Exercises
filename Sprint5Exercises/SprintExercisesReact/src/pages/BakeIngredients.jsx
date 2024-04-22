@@ -478,7 +478,7 @@ const BakeIngredients = () => {
                                         Calories: {item.calories} cal / 100gm<br/>
                                         Cost: <span>&#x20B9;</span>{item.cost} / 100gm
                                     </p>
-                                    <span className="span">Quanity to Submit to Bakery: </span>
+                                    <span className="span">Quantity to Submit to Bakery: </span>
                                     <input
                                         type="text"
                                         inputMode="numeric"
